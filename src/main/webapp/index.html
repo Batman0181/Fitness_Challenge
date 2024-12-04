@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Fitness Challenge</title>
+    <link rel="stylesheet" href="resources/css/styles.css">
+    <script defer src="resources/js/script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Community Fitness Challenge</h1>
+        <p>Your journey to fitness starts here</p>
+        <button id="scrollDown">Learn More</button>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#challenges">Challenges</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>We aim to bring the community together through fitness challenges that inspire and motivate everyone to achieve their health goals.</p>
+        </section>
+
+        <!-- Challenges Section -->
+        <section id="challenges" class="section">
+            <h2>Our Challenges</h2>
+            <div class="card-container">
+                <!-- Step Challenge Card -->
+                <div class="card">
+                    <h3>Step Challenge</h3>
+                    <p>Walk 10,000 steps daily for 30 days.</p>
+                    <a href="step-challenge.html" class="button">Join the Step Challenge</a>
+                </div>
+        
+                <!-- Water Challenge Card -->
+                <div class="card">
+                    <h3>Water Challenge</h3>
+                    <p>Drink 8 glasses of water daily for a week.</p>
+                    <a href="water-challenge.html" class="button">Join the Water Challenge</a>
+                </div>
+        
+                <!-- Workout Challenge Card -->
+                <div class="card">
+                    <h3>Workout Challenge</h3>
+                    <p>Complete 20-minute daily workouts for a month.</p>
+                    <a href="workout-challenge.html" class="button">Join the Workout Challenge</a>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Sign Up Section -->
+        <section id="signup" class="section">
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <button type="submit">Join the Challenge</button>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="mailto:info@fitnesschallenge.com">info@fitnesschallenge.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Community Fitness Challenge. All rights reserved.</p>
+    </footer>
+</body>
+</html>
